@@ -58,21 +58,8 @@
       ]
     },
     {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
+      "group": "API Documentation v0.5",
+      "openapi": "https://anirudhpolisetty-app.highspot.ngrok.io/api/public/open_api/v0.5"
     },
     {
       "group": "Endpoint Examples",
