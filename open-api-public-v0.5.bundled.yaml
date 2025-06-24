@@ -5,7 +5,7 @@ info:
     \ all API calls to Highspot endpoints\n"
   version: 0.5.0
 servers:
-- url: 'https://anirudhpolisetty-api.highspot.ngrok.io/v0.5'
+- url: ['https://anirudhpolisetty-api.highspot.ngrok.io/v0.5','https://anirudhpolisetty-api.highspot.ngrok.io/v1.0']
   description: Highspot API v0.5
 security:
 - basicAuth: []
@@ -13,7 +13,7 @@ paths:
   /me:
     get:
       tags:
-      - General testttt
+      - General
       summary: Get current user
       description: Returns the user id of the caller
       parameters:
