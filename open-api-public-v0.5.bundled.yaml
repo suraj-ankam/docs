@@ -5,14 +5,14 @@ info:
     \ all API calls to Highspot endpoints\n"
   version: 0.5.0
 servers:
-- url: 
+- url: https://{environment}/v0.5
 security:
 - basicAuth: []
 paths:
   /me:
     get:
       tags:
-      - General abcded
+      - General my_last
       summary: Get current user
       description: Returns the user id of the caller
       parameters:
