@@ -2,7 +2,7 @@ openapi: 3.0.1
 info:
   title: Highspot REST API
   description: "Highspot REST API Documentation \n\n__Note:__ HTTPS is required for\
-    \ all API calls to Highspot endpoints\n"
+    \ all API calls to Highspot endpoints \n"
   version: 0.5.0
 servers:
 - url: https://{environment}/v0.5
