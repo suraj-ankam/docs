@@ -12,7 +12,7 @@ paths:
   /me:
     get:
       tags:
-      - General my_last
+      - General my_last yes
       summary: Get current user
       description: Returns the user id of the caller
       parameters:
