@@ -39,7 +39,7 @@
         "groups": [
           {
             "group": "API Documentation abcd v0.5",
-            "openapi": "https://anirudhpolisetty-app.highspot.ngrok.io/api/public/open_api/v0.5"
+            "openapi": "open-api-public-v0.5.bundled.yaml"
           },
           {
             "group": "Endpoint Examples",
