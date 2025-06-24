@@ -38,7 +38,7 @@
         "tab": "API Reference",
         "groups": [
           {
-            "group": "API Documentation xyzv0.5",
+            "group": "API Documentation xyz v0.5",
             "openapi": "https://anirudhpolisetty-app.highspot.ngrok.io/api/public/open_api/v0.5"
           },
           {
