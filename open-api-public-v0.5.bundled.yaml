@@ -5,7 +5,7 @@ info:
     \ all API calls to Highspot endpoints\n"
   version: 0.5.0
 servers:
-- url: {subdomain}
+- url: 
 security:
 - basicAuth: []
 paths:
