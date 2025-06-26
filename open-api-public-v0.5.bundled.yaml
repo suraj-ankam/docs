@@ -7,10 +7,10 @@ info:
 security:
 - basicAuth: []
 servers:
-- url: {url}/{version}
+- url: https://{url}/{version}
   variables:
     url:
-      default: https://api.highspot.com
+      default: api.highspot.com
     version:
       enum:
         - "v0.5"
