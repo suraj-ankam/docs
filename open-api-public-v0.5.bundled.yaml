@@ -6,6 +6,16 @@ info:
   version: 0.5.0
 security:
 - basicAuth: []
+servers:
+- url: https://{url}/{version}
+  variables:
+    url:
+      default: api.highspot.com
+    version:
+      enum:
+        - "v0.5"
+        - "v1.0"
+      default: v1.0
 paths:
   /me:
     get:
